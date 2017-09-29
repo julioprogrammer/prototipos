@@ -17,3 +17,28 @@
   width: 324px;
   height: 243px;
 }
+
+.tabs .tab a {
+  color: rgba(33, 33, 33, 0.7);
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
+    color: rgba(255,255,255,0.7);
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a {
+    color: rgba(255,255,255,0.7);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #212121;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #fff;
+    will-change: left, right;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="yellow lighten-4">
+  <nav class="yellow lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo grey-text text-darken-4">Pokedéx</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" class="grey-text text-darken-4">Cadastrar</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Cadastrar</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons grey-text text-darken-4">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img class="materialboxed" width="650" src="https://images.nowloading.co/images/c_limit,q_auto:good,w_600/ag5lhlool12zgivomcei/here-s-how-to-catch-pikachus-before-they-become-super-rare-in-pokemon-go.jpg">
+                </div>
+                <div class="card-content yellow lighten-1">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width yellow lighten-1">
+                        <li class="tab"><a href="#test4">Test 1</a></li>
+                        <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+                        <li class="tab"><a href="#test6">Test 3</a></li>
+                    </ul>
+                </div>
+                <div class="card-content yellow lighten-3">
+                    <div id="test4">Test 1</div>
+                    <div id="test5">Test 2</div>
+                    <div id="test6">Test 3</div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+        });
+    </script>
+
+  </body>
+</html>
